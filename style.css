@@ -468,14 +468,14 @@ padding: 20px 0px 0px 0px;
         width: 100%;
     }
 
-    .offers ul{
-        padding-inline-start: 15px; 
-    }
+ 
 
     #social-comp{
         overflow: hidden;
         justify-content: start;
         background-color: white
+        margin: 20px;
+        width: 90%;
     }
 
     #escrow-section{
@@ -489,7 +489,8 @@ padding: 20px 0px 0px 0px;
     }
 
     .escrow-img{
-        width: 23rem;
+        width: 19rem;
+        padding-top: 50px;
     }
 
     #tab-img{
@@ -508,18 +509,19 @@ padding: 20px 0px 0px 0px;
     }
 
     .sanse img{
-        width: 102.8px;
+        width: 107.8px;
     height: 46px;
     padding: 11px;
     margin-left: 0px;
     }
 
     #editor-demo{
-        width: 90%;
+        width: 83%;
     }
 
     form{
         padding-bottom: 40px;
+        display: flex;
     }
 
     .logo{
