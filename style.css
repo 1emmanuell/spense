@@ -1,0 +1,528 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.fas{
+    display: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    
+}
+
+.hamburger{
+    color: black;
+    font-size: 1.7rem;
+    margin-left: auto;
+    display: none;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.7rem;
+     margin: unset;
+     padding-left: 69px;
+}
+.head-txt{
+    background-color: black;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(232 232 232);
+    margin-top: 0;
+    margin-left: 0px;
+    width: 100%;
+    height: 4rem;
+    padding: 20px 0px 20px 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+
+nav ul li{
+    margin-left: 20px;
+
+}
+
+.nav-login{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 90px;
+}
+
+.nav-login p{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.get-strted-btn{
+    background-color: black;
+    padding: 15px;
+    margin-top: 1px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 4px;
+
+}
+
+
+
+#main{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    background-color: rgb(232 232 232);
+    padding: 0 90px;
+}
+
+.main-img{
+    width: 490px;
+    height: 575px;
+    margin-top: 50px;
+}
+
+.checkmark-img{
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+}
+
+#main h2{
+    padding-top: 70px;
+    margin-bottom: 0px;
+    font-size: 2.9rem;
+}
+
+#main p{
+   padding-top: 0px;
+   margin-bottom: 1px; 
+   color: #795548;
+}
+
+.offers{
+    display: flex;
+    padding-right: 0px;
+    color: #795548;
+    font-weight: bold;
+}
+
+.offers li{
+    padding: 10px 0px;
+    display: flex;
+}
+
+.offers ul{
+    padding-inline-start: 0px;
+}
+
+.email-btn{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.email-space{
+    padding: 15px;
+    margin-right: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+
+}
+
+
+.sanse img{
+    width: 108px;
+    height: 48px;
+    padding: 10px;
+    margin-left: 0px;
+}
+#social-comp{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    padding: 7px 90px 11px 90px;
+    justify-content: space-evenly;
+    overflow: unset;
+}
+
+#escrow-section{
+    height: 57vh;
+    
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    
+    border: 1px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        width: 83%;
+    padding: 0px 43px 0px 10px;
+    margin: 0 auto;
+}
+
+.escrow-img{
+    width: 393px;
+    height: 329px;
+    padding-top: 18px;
+}
+
+#phone-img{
+    margin: auto;
+}
+
+#escrow-section h2{
+    font-size: 35px;
+    padding-top: 50px;
+    margin-left: 90px;
+}
+
+#escrow-section p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 70%;
+    margin-left: 90px;
+}
+
+#escrow-section a{
+    text-decoration: underline;
+}
+
+.editor-img{
+    width: 100%;
+    height: 25rem;
+}
+
+#text-editor{
+    height: 60vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+#editor-demo{
+    line-height: 25px;
+    text-align: justify;
+    width: 45%;
+    margin-top: 45px;
+}
+
+#editor-demo h2{
+    font-size: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .88rem;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+.footer-h2{
+    display: flex;
+    flex-direction: column;
+}
+
+.spense-intro a{
+    color: rgb(172, 172, 172);
+}
+
+.spense-intro p{
+    color: rgb(172, 172, 172);
+   
+}
+
+.spense-text{
+    width: 20rem;
+}
+
+#main-txt{
+    width: inherit;
+}
+
+#escr{
+    margin: -70px 5px;
+    padding-top: 18px;
+}
+
+#tab-img{
+    width: 100%;
+    height: inherit;
+    text-align: unset;
+}
+
+.p-main-txt{
+    margin-top: 10px;
+}
+
+
+/****Media Query*****/
+
+@media screen and (max-width: 768px){
+
+    #main {
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0px 0px;
+        padding-top: 32px;
+    }
+
+    form{
+        padding-bottom: 30px;
+    }
+    #main-txt{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .main-img{
+       height: 28rem;
+       width: 100%;
+    }
+    #main h2{
+        padding-top: 0px;
+    }
+    #social-comp{
+        flex-wrap: nowrap;
+        padding: 9px 0px;
+        overflow: hidden;
+        justify-content: flex-start;
+        width: 70%;
+        margin: auto;
+    }
+
+    .sanse img {
+        width: 108px;
+    height: 49px;
+    padding: 11px 5px;
+    }
+
+    #text-editor{
+        flex-wrap: wrap-reverse;
+        height: 127vh;
+    }
+
+    #escrow-section {
+        flex-wrap: wrap-reverse;
+        height: 100vh;
+    }
+
+    .escrow-img{
+        padding-top: 100px;
+        width: 400px;
+    }
+
+    footer{
+        font-size: .60rem;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .spense-intro{
+        padding: 0 10px;
+    }
+
+    #editor-demo{
+        margin: 0 auto;
+        width: 82%;
+    }
+
+    #escrow-div{
+        margin: 0 auto;
+    }
+
+    #escrow-section h2{
+        padding-top: 52px;
+    }
+
+    .head-txt{
+        padding: 10px 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+.nav, .nav-login{
+     display: none;
+    }
+
+    .fas{
+        display: flex;
+        margin-right: 20px;
+    }
+
+
+    #main{
+        margin: 0px 0px;
+padding: 20px 0px 0px 0px;
+    }
+    .main-img {
+        width: 90%;
+        height: 25rem;
+        margin-top: 0px;
+        /*margin: 0px 2rem;*/
+    }
+
+    #container{
+        width: 100%;
+        padding: 0px;
+       
+    }
+
+    header{
+        height: 4rem;
+        background-color: rgb(232 232 232);
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #main h2{
+    
+        font-size: 1.96rem;
+    }
+
+    #main-txt {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .email-space{
+        padding: 14px;
+    }
+
+    .p-main-txt{
+        margin-top: 0px;
+    }
+
+    footer{
+        height: 67vh;
+        width: 100vw;
+    }
+
+    .spense-intro h2{
+        font-size: 1rem;
+    }
+
+    .spense-intro a{
+        font-size: .9rem;
+    }
+
+    .spense-intro p{
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    .offers ul{
+        padding-inline-start: 15px; 
+    }
+
+    #social-comp{
+        overflow: hidden;
+        justify-content: start;
+        background-color: white
+    }
+
+    #escrow-section{
+        height: 114vh;
+        text-align: center;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        width: 91%;
+        margin: 0 20px;
+        padding: 0px;
+    }
+
+    .escrow-img{
+        width: 23rem;
+    }
+
+    #tab-img{
+        text-align: center;
+    }
+
+    #escrow-section h2{
+        margin-left: unset;
+        margin: 21px auto;
+    }
+
+    #escrow-section p{
+        margin-left: unset;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .sanse img{
+        width: 102.8px;
+    height: 46px;
+    padding: 11px;
+    margin-left: 0px;
+    }
+
+    #editor-demo{
+        width: 90%;
+    }
+
+    form{
+        padding-bottom: 40px;
+    }
+
+    .logo{
+        padding-left: 4px;
+    }
+}    
